@@ -1,4 +1,5 @@
 node_modules/
 
 utils/test/*
-
+.DS_Store
+.idea
