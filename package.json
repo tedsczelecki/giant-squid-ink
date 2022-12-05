@@ -1,0 +1,14 @@
+{
+  "name": "@giant-squid/root",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*",
+    "utils/*"
+  ],
+  "devDependencies": {
+    "lerna": "^6.0.3",
+    "prettier": "^2.8.0"
+  }
+}
