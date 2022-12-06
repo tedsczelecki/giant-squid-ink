@@ -1,5 +1,10 @@
-node_modules/
+# package directories
+node_modules
+jspm_packages
 
-utils/test/*
-.DS_Store
+# Serverless directories
+.serverless
 .idea
+prisma/*
+schema.prisma
+yarn-error.log

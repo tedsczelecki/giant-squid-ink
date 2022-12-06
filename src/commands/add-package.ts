@@ -6,7 +6,7 @@ import {
 const inquirer = require("inquirer");
 const shell = require("shelljs");
 
-export const addModule = async () => {
+export const addPackage = async () => {
   let defaultScope = "";
   const cwd = shell.exec("pwd").trim();
   try {

@@ -36,11 +36,11 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.addModule = void 0;
+exports.addPackage = void 0;
 var filesystem_1 = require("../utils/filesystem");
 var inquirer = require("inquirer");
 var shell = require("shelljs");
-var addModule = function () { return __awaiter(void 0, void 0, void 0, function () {
+var addPackage = function () { return __awaiter(void 0, void 0, void 0, function () {
     var defaultScope, cwd, pkg, scopeMessage, scope, name, path, resolvedScope, resolvedName, resolvedPath, newModulePath;
     return __generator(this, function (_a) {
         switch (_a.label) {
@@ -94,4 +94,4 @@ var addModule = function () { return __awaiter(void 0, void 0, void 0, function 
         }
     });
 }); };
-exports.addModule = addModule;
+exports.addPackage = addPackage;
